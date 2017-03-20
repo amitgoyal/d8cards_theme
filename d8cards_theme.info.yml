@@ -1,0 +1,15 @@
+name: D8Cards Theme
+type: theme
+description: Exploring Twig Theming with D8 Cards.
+package: Other
+core: 8.x
+libraries:
+  - d8cards_theme/global-styling
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  content: Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
